@@ -1,0 +1,4 @@
+maize_N
+rice_N
+zavitan_chrNA
+zavitan_chrNB
