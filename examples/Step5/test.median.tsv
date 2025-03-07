@@ -1,0 +1,1000 @@
+HOC000359	{'Zea': ('maize_N', 2), 'D': ('mace_chrND', 5), 'Hordeum': ('HOR7552_chrNH', 4), 'B': ('spelt_chrNB', 4), 'Oryza': ('MH63RS3_ChrN', 3), 'A': ('domesticatedTA10622_chrNA', 5), 'Brachypodium': ('brach_chrN', 3), 'Secale': ('weining_chrNR', 5), 'Avena': ('oat_chrN', 3), 'Thinopyrum': ('te_chrNE', 6)}
+HOC000811	{'D': ('mace_chrND', 4), 'Hordeum': ('ZDM02064_chrNH', 3), 'B': ('spelt_chrNB', 5), 'A': ('domesticatedTA10622_chrNA', 5), 'Secale': ('lo7_chrNR', 5), 'Thinopyrum': ('te_chrNE', 4)}
+HOC001177	{'D': ('jagger_chrND', 3), 'Hordeum': ('HOR3365_chrNH', 2), 'A': ('julius_chrNA', 4), 'B': ('arinalrfor_chrNB', 4), 'Secale': ('weining_chrNR', 4), 'Thinopyrum': ('te_chrNE', 4)}
+HOC001471	{'Zea': ('maize_N', 1), 'D': ('jagger_chrND', 2), 'Hordeum': ('HOR7552_chrNH', 2), 'B': ('landmark_chrNB', 2), 'Oryza': ('MH63RS3_ChrN', 2), 'A': ('mace_chrNA', 2), 'Brachypodium': ('brach_chrN', 2), 'Secale': ('weining_chrNR', 2), 'Avena': ('oat_chrN', 2), 'Thinopyrum': ('te_chrNE', 2)}
+HOC001516	{'Zea': ('dk105_chrN', 2), 'D': ('arinalrfor_chrND', 2), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('julius_chrNB', 2), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('lancer_chrNA', 2), 'Brachypodium': ('brach_chrN', 2), 'Secale': ('weining_chrNR', 2), 'Avena': ('oat_chrN', 2), 'Thinopyrum': ('te_chrNE', 2)}
+HOC003999	{'Zea': ('F7_chrN', 3), 'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('mace_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mattis_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 3), 'Thinopyrum': ('te_chrNE', 1)}
+HOC004266	{'Zea': ('dk105_chrN', 2), 'D': ('jagger_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('mace_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC005133	{'Zea': ('dk105_chrN', 1), 'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC005252	{'Zea': ('dk105_chrN', 1), 'D': ('jagger_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC005697	{'Zea': ('dk105_chrN', 1), 'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('R498_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC005795	{'Zea': ('maize_N', 1), 'D': ('jagger_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC006000	{'Zea': ('dk105_chrN', 1), 'D': ('jagger_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('mace_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC006100	{'Zea': ('dk105_chrN', 1), 'D': ('jagger_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC006280	{'Zea': ('dk105_chrN', 1), 'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC006786	{'Zea': ('dk105_chrN', 1), 'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC008249	{'Zea': ('dk105_chrN', 1), 'D': ('jagger_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 2), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC009473	{'Zea': ('dk105_chrN', 1), 'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'A': ('mace_chrNA', 1), 'B': ('mace_chrNB', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Oryza': ('w1943_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC010400	{'Zea': ('PE0075_chrN', 2), 'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('mattis_chrNB', 1), 'Oryza': ('R498_ChrN', 1), 'A': ('mattis_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('lo7_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC010694	{'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'D': ('julius_chrND', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 2), 'Zea': ('maize_N', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC011076	{'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1), 'Secale': ('weining_chrNR', 2)}
+HOC011644	{'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC012251	{'D': ('julius_chrND', 1), 'Hordeum': ('ZDM01467_chrNH', 1), 'B': ('mace_chrNB', 1), 'A': ('mace_chrNA', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC013366	{'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'Oryza': ('MH63RS3_ChrN', 1), 'Zea': ('dk105_chrN', 1), 'A': ('mace_chrNA', 1), 'B': ('mace_chrNB', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1)}
+HOC013787	{'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'Oryza': ('ZH11_ChrN', 1), 'A': ('mace_chrNA', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC016423	{'D': ('julius_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('mace_chrNB', 1), 'A': ('mace_chrNA', 1), 'Oryza': ('rice_N', 1), 'Brachypodium': ('brach_chrN', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC016437	{'D': ('jagger_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('landmark_chrNB', 1), 'A': ('mace_chrNA', 1), 'Secale': ('weining_chrNR', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC017870	{'D': ('lancer_chrND', 1), 'Hordeum': ('HOR7552_chrNH', 1), 'B': ('mace_chrNB', 1), 'A': ('mace_chrNA', 1), 'Secale': ('weining_chrNR', 1), 'Avena': ('oat_chrN', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC023151	{'D': ('mace_chrND', 2), 'A': ('mace_chrNA', 1), 'B': ('spelt_chrNB', 6), 'Thinopyrum': ('te_chrNE', 1)}
+HOC023174	{'D': ('Kariega_chrND', 2), 'B': ('AspePJ_chrNB', 1), 'A': ('landmark_chrNA', 1)}
+HOC023293	{'B': ('mace_chrNB', 1), 'A': ('norin61_chrNA', 1), 'Secale': ('weining_chrNR', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC023424	{'B': ('jagger_chrNB', 2), 'A': ('mattis_chrNA', 1), 'D': ('mattis_chrND', 1), 'Secale': ('weining_chrNR', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC023653	{'Hordeum': ('Barke_chrNH', 5)}
+HOC023932	{'D': ('julius_chrND', 1), 'B': ('landmark_chrNB', 1), 'Secale': ('weining_chrNR', 1)}
+HOC024871	{'B': ('renan_chrNB', 1), 'D': ('landmark_chrND', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC024995	{'A': ('lancer_chrNA', 1), 'B': ('lancer_chrNB', 1), 'D': ('landmark_chrND', 1), 'Secale': ('weining_chrNR', 1)}
+HOC027466	{'Zea': ('PE0075_chrN', 1), 'Oryza': ('LJ_ChrN', 1), 'D': ('landmark_chrND', 1), 'Avena': ('oat_chrN', 1)}
+HOC028147	{'Hordeum': ('HOR9043_chrNH', 1), 'B': ('lancer_chrNB', 1)}
+HOC028782	{'A': ('mace_chrNA', 1), 'D': ('lancer_chrND', 2), 'Brachypodium': ('brach_chrN', 1)}
+HOC029522	{'D': ('julius_chrND', 1)}
+HOC030090	{'Hordeum': ('HOR8148_chrNH', 1), 'B': ('KN9204_chrNB', 1)}
+HOC030270	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC030518	{'Hordeum': ('HOR3365_chrNH', 1), 'A': ('mace_chrNA', 1)}
+HOC030849	{'D': ('mattis_chrND', 1)}
+HOC031372	{'A': ('landmark_chrNA', 1)}
+HOC031817	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC032770	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC032771	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC033072	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC033738	{'Hordeum': ('HOR7552_chrNH', 1), 'B': ('KN9204_chrNB', 1)}
+HOC033970	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC035086	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC035193	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC035495	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC035675	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC036238	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC038588	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC038613	{'Oryza': ('LJ_ChrN', 2), 'Avena': ('oat_chrN', 1)}
+HOC039872	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC040009	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC040196	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC040537	{'Oryza': ('R498_ChrN', 3)}
+HOC040581	{'Zea': ('PE0075_chrN', 2)}
+HOC040657	{'Zea': ('dk105_chrN', 2)}
+HOC041114	{'B': ('mace_chrNB', 1)}
+HOC041236	{'D': ('T093_ChrN', 1), 'A': ('KN9204_chrNA', 1), 'B': ('zang1817v1_chrNB', 1), 'Zea': ('mo17_chrN', 1)}
+HOC042953	{'A': ('landmark_chrNA', 1)}
+HOC043271	{'A': ('landmark_chrNA', 1)}
+HOC043920	{'B': ('mace_chrNB', 1)}
+HOC044289	{'D': ('landmark_chrND', 1)}
+HOC044641	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC045856	{'A': ('landmark_chrNA', 1)}
+HOC045980	{'A': ('mace_chrNA', 1)}
+HOC047465	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC047654	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC047826	{'Hordeum': ('Akashinriki_chrNH', 2)}
+HOC047909	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC048344	{'Zea': ('PE0075_chrN', 2)}
+HOC048900	{'A': ('lancer_chrNA', 1)}
+HOC049103	{'D': ('mace_chrND', 1)}
+HOC049241	{'B': ('landmark_chrNB', 1)}
+HOC050462	{'Zea': ('ph207_chrN', 1)}
+HOC050858	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC050878	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC051089	{'Zea': ('ph207_chrN', 1)}
+HOC051210	{'Oryza': ('LJ_ChrN', 2)}
+HOC053197	{'D': ('aet_ChrN', 1), 'Hordeum': ('ZDM02064_chrNH', 1)}
+HOC053292	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC053304	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC053639	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC054011	{'Oryza': ('MH63RS3_ChrN', 1), 'Brachypodium': ('brach_chrN', 1), 'Avena': ('oat_chrN', 1)}
+HOC054324	{'Oryza': ('MH63RS3_ChrN', 1), 'Brachypodium': ('brach_chrN', 2), 'Avena': ('oat_chrN', 1)}
+HOC055591	{'Zea': ('mo17_chrN', 1)}
+HOC056117	{'B': ('landmark_chrNB', 1)}
+HOC056659	{'D': ('landmark_chrND', 1)}
+HOC057167	{'Hordeum': ('ZDM01467_chrNH', 1)}
+HOC057250	{'Hordeum': ('ZDM02064_chrNH', 1)}
+HOC057958	{'Oryza': ('MH63RS3_ChrN', 1), 'Brachypodium': ('brach_chrN', 1), 'Avena': ('oat_chrN', 1)}
+HOC059860	{'B': ('norin61_chrNB', 1)}
+HOC060036	{'B': ('mattis_chrNB', 1)}
+HOC060449	{'D': ('mace_chrND', 1)}
+HOC060485	{'D': ('mace_chrND', 1)}
+HOC060969	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC061248	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC061505	{'Zea': ('dk105_chrN', 1), 'Avena': ('oat_chrN', 1)}
+HOC061766	{'Oryza': ('MH63RS3_ChrN', 1), 'Brachypodium': ('brach_chrN', 1)}
+HOC062418	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC062738	{'Oryza': ('R498_ChrN', 1)}
+HOC062923	{'Zea': ('maize_N', 1)}
+HOC064328	{'Hordeum': ('HOR7552_chrNH', 1), 'A': ('landmark_chrNA', 1)}
+HOC065978	{}
+HOC066231	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC066828	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC067028	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC067892	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC068633	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC069554	{'Oryza': ('MH63RS3_ChrN', 2)}
+HOC070715	{'Zea': ('dk105_chrN', 1)}
+HOC071241	{'Zea': ('maize_N', 1)}
+HOC071600	{'Zea': ('dk105_chrN', 1)}
+HOC072236	{'Zea': ('dk105_chrN', 1)}
+HOC072985	{'Zea': ('dk105_chrN', 1)}
+HOC073888	{'Zea': ('dk105_chrN', 1)}
+HOC074765	{'Zea': ('dk105_chrN', 1)}
+HOC075232	{'Zea': ('F7_chrN', 2)}
+HOC075477	{'Zea': ('dk105_chrN', 1)}
+HOC075524	{'Zea': ('dk105_chrN', 1)}
+HOC075584	{'A': ('lancer_chrNA', 1), 'Thinopyrum': ('te_chrNE', 1)}
+HOC076262	{'B': ('spelt_chrNB', 1)}
+HOC076809	{'D': ('T093_ChrN', 1)}
+HOC078139	{'Oryza': ('ZH11_ChrN', 1)}
+HOC078873	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC079328	{'Zea': ('dk105_chrN', 1)}
+HOC079654	{'Zea': ('dk105_chrN', 1)}
+HOC080042	{'Zea': ('PE0075_chrN', 1)}
+HOC080506	{'Zea': ('dk105_chrN', 1)}
+HOC081095	{'Hordeum': ('ZDM02064_chrNH', 1), 'A': ('Kariega_chrNA', 3), 'D': ('Kariega_chrND', 2)}
+HOC081547	{'B': ('mace_chrNB', 1)}
+HOC081568	{'B': ('lancer_chrNB', 1)}
+HOC082514	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC082614	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC082793	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC082808	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC083068	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC083752	{'Oryza': ('LJ_ChrN', 1)}
+HOC084627	{'Zea': ('dk105_chrN', 1)}
+HOC086357	{'B': ('KN9204_chrNB', 1), 'Avena': ('oat_chrN', 1)}
+HOC086888	{'D': ('KN9204_chrND', 1), 'B': ('KN9204_chrNB', 1)}
+HOC087040	{'D': ('spelt_chrND', 1)}
+HOC087469	{'Hordeum': ('Igri_chrNH', 1)}
+HOC087664	{'D': ('AY17_ChrN', 2)}
+HOC088714	{'Oryza': ('ZH11_ChrN', 1)}
+HOC088920	{'Oryza': ('R498_ChrN', 1)}
+HOC089333	{'Oryza': ('LJ_ChrN', 1)}
+HOC089604	{'Oryza': ('LJ_ChrN', 1)}
+HOC090174	{'Oryza': ('LJ_ChrN', 1)}
+HOC090315	{'Oryza': ('LJ_ChrN', 1)}
+HOC090996	{'Zea': ('PE0075_chrN', 1)}
+HOC091215	{'Zea': ('maize_N', 1)}
+HOC091491	{'Zea': ('mo17_chrN', 1)}
+HOC091687	{'Zea': ('PE0075_chrN', 1)}
+HOC093431	{'B': ('IWGSCv1p1_chrNB', 1)}
+HOC093644	{'D': ('mace_chrND', 1)}
+HOC094536	{'D': ('AY61_ChrN', 2)}
+HOC095588	{'Hordeum': ('OUN333_chrNH', 1)}
+HOC096047	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC096612	{'Oryza': ('LJ_ChrN', 1)}
+HOC096918	{'Oryza': ('LJ_ChrN', 1)}
+HOC097876	{'Oryza': ('ZH11_ChrN', 1)}
+HOC097900	{'Oryza': ('IR64_ChrN', 1)}
+HOC098255	{'Oryza': ('LJ_ChrN', 1)}
+HOC098414	{'Oryza': ('LJ_ChrN', 1)}
+HOC099522	{'Zea': ('PE0075_chrN', 1)}
+HOC099648	{'Zea': ('F7_chrN', 1)}
+HOC100379	{'Zea': ('dk105_chrN', 1)}
+HOC101284	{'A': ('zang1817v1_chrNA', 1)}
+HOC103622	{'D': ('aet_ChrN', 1)}
+HOC103744	{'D': ('XJ02_ChrN', 1)}
+HOC104101	{'B': ('AspePJ_chrNB', 1)}
+HOC106646	{'Oryza': ('rice_N', 1)}
+HOC107747	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC108106	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC108622	{'Oryza': ('LJ_ChrN', 1)}
+HOC109058	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC109227	{'Oryza': ('LJ_ChrN', 1)}
+HOC111357	{'Zea': ('dk105_chrN', 1)}
+HOC111555	{'Zea': ('PE0075_chrN', 1)}
+HOC111843	{'Zea': ('PE0075_chrN', 1)}
+HOC112974	{'A': ('fielder_chrNA', 1)}
+HOC114398	{'A': ('domesticatedTA10622_chrNA', 1)}
+HOC114670	{'A': ('zavitan_chrNA', 1)}
+HOC115321	{'B': ('julius_chrNB', 1)}
+HOC115434	{'B': ('mattis_chrNB', 1)}
+HOC116386	{'B': ('Kariega_chrNB', 1), 'D': ('T093_ChrN', 1)}
+HOC117207	{'D': ('KN9204_chrND', 1)}
+HOC117368	{'D': ('KN9204_chrND', 1)}
+HOC117391	{'D': ('aet_ChrN', 1)}
+HOC117762	{'D': ('aet_ChrN', 1)}
+HOC117869	{'D': ('aet_ChrN', 1), 'Hordeum': ('barley_chrNH', 1)}
+HOC118004	{'D': ('T093_ChrN', 1)}
+HOC118148	{'A': ('wildTA299_chrNA', 1)}
+HOC119610	{}
+HOC119914	{'D': ('T093_ChrN', 1)}
+HOC120239	{'D': ('T093_ChrN', 1)}
+HOC120244	{'D': ('T093_ChrN', 1)}
+HOC120871	{'D': ('T093_ChrN', 1)}
+HOC121414	{'D': ('T093_ChrN', 1)}
+HOC121813	{'D': ('T093_ChrN', 1)}
+HOC121980	{'Hordeum': ('HOR7552_chrNH', 2), 'D': ('aet_ChrN', 1)}
+HOC122953	{'Hordeum': ('HOR13821_chrNH', 1)}
+HOC123366	{'Hordeum': ('Igri_chrNH', 1)}
+HOC123664	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC124455	{'Oryza': ('rice_N', 1)}
+HOC124872	{'Oryza': ('IR64_ChrN', 1)}
+HOC125535	{'Oryza': ('IR64_ChrN', 1)}
+HOC126587	{'Oryza': ('IR64_ChrN', 1)}
+HOC126794	{'Oryza': ('LJ_ChrN', 1)}
+HOC127117	{'Oryza': ('LJ_ChrN', 1)}
+HOC127291	{'Oryza': ('LJ_ChrN', 1)}
+HOC128115	{'Oryza': ('LJ_ChrN', 1)}
+HOC128317	{'Oryza': ('R498_ChrN', 1)}
+HOC128364	{'Oryza': ('IR64_ChrN', 1)}
+HOC129054	{'Oryza': ('R498_ChrN', 1)}
+HOC129405	{'Oryza': ('R498_ChrN', 1)}
+HOC129544	{'Zea': ('maize_N', 1)}
+HOC129931	{'Zea': ('dk105_chrN', 1)}
+HOC130305	{'Zea': ('PE0075_chrN', 1)}
+HOC130667	{'Zea': ('mo17_chrN', 1)}
+HOC130762	{'Zea': ('dk105_chrN', 1)}
+HOC130831	{'Zea': ('F7_chrN', 1)}
+HOC130999	{'Zea': ('F7_chrN', 1)}
+HOC131548	{'Zea': ('F7_chrN', 1)}
+HOC131834	{'Zea': ('PE0075_chrN', 1)}
+HOC132403	{'Zea': ('dk105_chrN', 1)}
+HOC132931	{'Zea': ('F7_chrN', 1)}
+HOC135785	{'A': ('zavitan_chrNA', 1)}
+HOC137487	{'A': ('KN9204_chrNA', 1), 'Brachypodium': ('brach_chrN', 1)}
+HOC138642	{'B': ('norin61_chrNB', 1)}
+HOC139153	{'B': ('zang1817v1_chrNB', 1)}
+HOC139444	{'B': ('zavitan_chrNB', 1)}
+HOC139768	{'B': ('zang1817v1_chrNB', 1)}
+HOC141748	{'D': ('lancer_chrND', 1)}
+HOC142130	{'Thinopyrum': ('te_chrNE', 1), 'D': ('zang1817v1_chrND', 1)}
+HOC143019	{'D': ('T093_ChrN', 1)}
+HOC144016	{'A': ('zavitan_chrNA', 1)}
+HOC144019	{'A': ('zavitan_chrNA', 1)}
+HOC145072	{}
+HOC145401	{}
+HOC145560	{}
+HOC145823	{}
+HOC146674	{}
+HOC146811	{}
+HOC147725	{}
+HOC148108	{}
+HOC148163	{'Secale': ('lo7_chrNR', 1)}
+HOC148240	{}
+HOC148341	{}
+HOC148694	{'D': ('AY61_ChrN', 1)}
+HOC149819	{'D': ('T093_ChrN', 1)}
+HOC150741	{'D': ('XJ02_ChrN', 1)}
+HOC150933	{'D': ('AY17_ChrN', 1), 'Secale': ('lo7_chrNR', 1)}
+HOC150968	{'D': ('XJ02_ChrN', 1)}
+HOC151029	{'D': ('AY17_ChrN', 1), 'Hordeum': ('barley_chrNH', 1)}
+HOC151562	{'D': ('aet_ChrN', 1)}
+HOC151588	{'A': ('wildTA299_chrNA', 1)}
+HOC151832	{'A': ('wildTA299_chrNA', 1)}
+HOC152594	{'A': ('wildTA299_chrNA', 1)}
+HOC152659	{'A': ('wildTA299_chrNA', 1)}
+HOC152760	{'A': ('wildTA299_chrNA', 1)}
+HOC152845	{'A': ('wildTA299_chrNA', 1)}
+HOC153091	{'A': ('wildTA299_chrNA', 1)}
+HOC153230	{'A': ('wildTA299_chrNA', 1)}
+HOC153716	{'Secale': ('weining_chrNR', 1)}
+HOC154119	{'Secale': ('weining_chrNR', 1)}
+HOC154538	{'Avena': ('oat_chrN', 1), 'Secale': ('weining_chrNR', 1)}
+HOC154562	{}
+HOC155453	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC155713	{'Hordeum': ('barley_chrNH', 1)}
+HOC156095	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC156176	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC156393	{'Hordeum': ('OUN333_chrNH', 1)}
+HOC156608	{'Hordeum': ('Igri_chrNH', 1)}
+HOC156865	{'Hordeum': ('ZDM01467_chrNH', 1)}
+HOC157932	{'Oryza': ('rice_N', 1)}
+HOC158209	{'Oryza': ('rice_N', 1)}
+HOC158775	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC159368	{'Oryza': ('R498_ChrN', 1)}
+HOC159445	{'Oryza': ('R498_ChrN', 1)}
+HOC160248	{'Oryza': ('R498_ChrN', 1)}
+HOC160364	{'Oryza': ('R498_ChrN', 1)}
+HOC161057	{'Oryza': ('LJ_ChrN', 1)}
+HOC161115	{'Oryza': ('ZH11_ChrN', 1)}
+HOC161390	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC161913	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC162637	{'Oryza': ('R498_ChrN', 1)}
+HOC162643	{'Oryza': ('LJ_ChrN', 1)}
+HOC162794	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC164376	{'Oryza': ('w1943_chrN', 1)}
+HOC164397	{'Oryza': ('R498_ChrN', 1)}
+HOC164562	{'Oryza': ('w1943_chrN', 1)}
+HOC164951	{'Oryza': ('w1943_chrN', 1)}
+HOC165467	{'Oryza': ('w1943_chrN', 1)}
+HOC165704	{'Oryza': ('w1943_chrN', 1)}
+HOC165883	{'Oryza': ('R498_ChrN', 1)}
+HOC166961	{'Oryza': ('w1943_chrN', 1)}
+HOC169558	{'Zea': ('maize_N', 1)}
+HOC169579	{'Zea': ('maize_N', 1)}
+HOC169615	{'Zea': ('ph207_chrN', 1)}
+HOC169823	{'Zea': ('PE0075_chrN', 1)}
+HOC169929	{'Zea': ('ph207_chrN', 1)}
+HOC170455	{'Zea': ('PE0075_chrN', 1)}
+HOC172701	{'Zea': ('dk105_chrN', 1)}
+HOC172702	{'Zea': ('dk105_chrN', 1)}
+HOC172983	{'Zea': ('dk105_chrN', 1)}
+HOC173057	{'Zea': ('dk105_chrN', 1)}
+HOC173824	{'Zea': ('dk105_chrN', 1)}
+HOC174929	{'Zea': ('F7_chrN', 1)}
+HOC175069	{'Zea': ('F7_chrN', 1)}
+HOC175516	{'Zea': ('F7_chrN', 1)}
+HOC176350	{'Zea': ('F7_chrN', 1)}
+HOC176370	{'Zea': ('F7_chrN', 1)}
+HOC176578	{'Zea': ('PE0075_chrN', 1)}
+HOC176750	{'Zea': ('ph207_chrN', 1)}
+HOC177134	{'Zea': ('PE0075_chrN', 1)}
+HOC177706	{'Zea': ('mo17_chrN', 1)}
+HOC178233	{'Zea': ('ph207_chrN', 1)}
+HOC178493	{'Zea': ('ph207_chrN', 1)}
+HOC178583	{'Zea': ('ph207_chrN', 1)}
+HOC178899	{}
+HOC179305	{'A': ('julius_chrNA', 2)}
+HOC180437	{'A': ('zang1817v1_chrNA', 1)}
+HOC180799	{'A': ('zang1817v1_chrNA', 1)}
+HOC181055	{'A': ('zang1817v1_chrNA', 1)}
+HOC184114	{'A': ('norin61_chrNA', 1)}
+HOC185545	{'A': ('Kariega_chrNA', 1)}
+HOC186781	{'A': ('Kariega_chrNA', 1)}
+HOC187122	{'A': ('KN9204_chrNA', 1)}
+HOC187451	{'A': ('KN9204_chrNA', 1)}
+HOC187867	{'A': ('KN9204_chrNA', 1)}
+HOC187870	{'A': ('KN9204_chrNA', 1)}
+HOC188495	{'A': ('KN9204_chrNA', 1)}
+HOC188966	{'A': ('KN9204_chrNA', 1)}
+HOC189220	{'A': ('KN9204_chrNA', 1)}
+HOC189319	{'A': ('KN9204_chrNA', 1)}
+HOC189916	{'A': ('renan_chrNA', 1)}
+HOC190637	{'A': ('renan_chrNA', 1)}
+HOC191120	{'A': ('renan_chrNA', 1)}
+HOC192050	{'B': ('landmark_chrNB', 1)}
+HOC192072	{'B': ('mace_chrNB', 1)}
+HOC192744	{'B': ('zang1817v1_chrNB', 1)}
+HOC192864	{'B': ('zang1817v1_chrNB', 1)}
+HOC193310	{'B': ('zang1817v1_chrNB', 1)}
+HOC194387	{'B': ('zang1817v1_chrNB', 1)}
+HOC195849	{'B': ('zang1817v1_chrNB', 1)}
+HOC196329	{'B': ('zang1817v1_chrNB', 1)}
+HOC196904	{'B': ('zang1817v1_chrNB', 1)}
+HOC199382	{'B': ('Kariega_chrNB', 1)}
+HOC199427	{'B': ('Kariega_chrNB', 1)}
+HOC199819	{'B': ('Kariega_chrNB', 1)}
+HOC200602	{'B': ('Kariega_chrNB', 1)}
+HOC200876	{'B': ('Kariega_chrNB', 1)}
+HOC201110	{'B': ('Kariega_chrNB', 1)}
+HOC201278	{'B': ('Kariega_chrNB', 1)}
+HOC201991	{'B': ('KN9204_chrNB', 1)}
+HOC202057	{'B': ('KN9204_chrNB', 1)}
+HOC202305	{'B': ('KN9204_chrNB', 1)}
+HOC202494	{'B': ('KN9204_chrNB', 1)}
+HOC203489	{'B': ('KN9204_chrNB', 1)}
+HOC203899	{'B': ('KN9204_chrNB', 1)}
+HOC204157	{'B': ('KN9204_chrNB', 1)}
+HOC204186	{'B': ('KN9204_chrNB', 1)}
+HOC204725	{'B': ('KN9204_chrNB', 1)}
+HOC204958	{'B': ('renan_chrNB', 1)}
+HOC204960	{'B': ('renan_chrNB', 1)}
+HOC205525	{'B': ('renan_chrNB', 1)}
+HOC205526	{'B': ('renan_chrNB', 1)}
+HOC206189	{'B': ('renan_chrNB', 1)}
+HOC206354	{'B': ('renan_chrNB', 1)}
+HOC206768	{'D': ('mattis_chrND', 1)}
+HOC207191	{'D': ('zang1817v1_chrND', 1)}
+HOC207288	{'D': ('zang1817v1_chrND', 1)}
+HOC208198	{'D': ('zang1817v1_chrND', 1)}
+HOC208476	{'D': ('zang1817v1_chrND', 1)}
+HOC209977	{'D': ('Kariega_chrND', 1)}
+HOC209981	{'D': ('Kariega_chrND', 1)}
+HOC210394	{'D': ('Kariega_chrND', 1)}
+HOC212472	{'D': ('KN9204_chrND', 1)}
+HOC213113	{'D': ('KN9204_chrND', 1)}
+HOC214515	{'D': ('renan_chrND', 1)}
+HOC214857	{'D': ('renan_chrND', 1)}
+HOC214934	{'D': ('renan_chrND', 1)}
+HOC215890	{'A': ('zavitan_chrNA', 1)}
+HOC216627	{'A': ('svevo_chrNA', 2)}
+HOC217274	{'A': ('svevo_chrNA', 1)}
+HOC217631	{'B': ('zavitan_chrNB', 1)}
+HOC218126	{'B': ('zavitan_chrNB', 1)}
+HOC219470	{'B': ('zavitan_chrNB', 1)}
+HOC219914	{'B': ('svevo_chrNB', 1)}
+HOC220151	{'B': ('svevo_chrNB', 1)}
+HOC220408	{'B': ('svevo_chrNB', 1)}
+HOC220549	{'B': ('svevo_chrNB', 1)}
+HOC220831	{'B': ('svevo_chrNB', 1)}
+HOC222077	{'B': ('AspePJ_chrNB', 1)}
+HOC222128	{'B': ('AspePJ_chrNB', 1)}
+HOC224192	{}
+HOC224200	{}
+HOC224400	{}
+HOC224520	{}
+HOC224566	{}
+HOC224786	{}
+HOC224919	{}
+HOC225191	{}
+HOC225536	{}
+HOC226107	{}
+HOC226209	{}
+HOC226853	{}
+HOC227425	{}
+HOC228508	{}
+HOC228759	{}
+HOC229119	{}
+HOC229364	{}
+HOC229775	{}
+HOC230245	{}
+HOC230887	{}
+HOC231374	{}
+HOC231572	{}
+HOC231605	{}
+HOC232178	{}
+HOC232215	{}
+HOC232914	{}
+HOC233072	{}
+HOC233559	{}
+HOC233619	{}
+HOC233975	{}
+HOC234098	{}
+HOC234103	{}
+HOC234426	{}
+HOC234427	{}
+HOC236650	{}
+HOC236701	{}
+HOC236749	{}
+HOC237495	{}
+HOC237563	{}
+HOC237721	{}
+HOC237738	{}
+HOC237756	{}
+HOC237989	{}
+HOC238218	{}
+HOC238434	{}
+HOC238449	{}
+HOC238454	{}
+HOC238498	{}
+HOC238515	{}
+HOC239161	{}
+HOC240685	{}
+HOC240828	{}
+HOC241275	{}
+HOC242227	{}
+HOC242845	{}
+HOC243913	{}
+HOC243984	{}
+HOC245985	{'D': ('AY61_ChrN', 1)}
+HOC246376	{'D': ('AY61_ChrN', 1)}
+HOC246527	{'D': ('AY61_ChrN', 1)}
+HOC246692	{'D': ('AY61_ChrN', 1)}
+HOC246769	{'D': ('AY61_ChrN', 1)}
+HOC246771	{'D': ('AY61_ChrN', 1)}
+HOC247785	{'D': ('AY61_ChrN', 1)}
+HOC248194	{'D': ('AY61_ChrN', 1)}
+HOC248853	{'D': ('T093_ChrN', 1)}
+HOC249086	{'D': ('T093_ChrN', 1)}
+HOC249982	{'D': ('T093_ChrN', 1)}
+HOC250888	{'D': ('AY17_ChrN', 1)}
+HOC251252	{'D': ('AY17_ChrN', 1)}
+HOC251319	{'D': ('AY17_ChrN', 3)}
+HOC252410	{'D': ('AY17_ChrN', 1)}
+HOC252977	{'D': ('AY17_ChrN', 1)}
+HOC253648	{'D': ('XJ02_ChrN', 1)}
+HOC253745	{'D': ('XJ02_ChrN', 1)}
+HOC255343	{'D': ('XJ02_ChrN', 1)}
+HOC255364	{'D': ('XJ02_ChrN', 1)}
+HOC255901	{'D': ('XJ02_ChrN', 1)}
+HOC256563	{'D': ('aet_ChrN', 1)}
+HOC256595	{'D': ('aet_ChrN', 1)}
+HOC257111	{'D': ('aet_ChrN', 1)}
+HOC257848	{'D': ('aet_ChrN', 1)}
+HOC258081	{'D': ('aet_ChrN', 1)}
+HOC258098	{'D': ('aet_ChrN', 1)}
+HOC258502	{'D': ('aet_ChrN', 1)}
+HOC258848	{'D': ('aet_ChrN', 1)}
+HOC258962	{'D': ('aet_ChrN', 1)}
+HOC259196	{'D': ('aet_ChrN', 1)}
+HOC259469	{'D': ('aet_ChrN', 1)}
+HOC259508	{'D': ('aet_ChrN', 1)}
+HOC260044	{'A': ('domesticatedTA10622_chrNA', 1)}
+HOC260737	{'A': ('domesticatedTA10622_chrNA', 1)}
+HOC261612	{'A': ('domesticatedTA10622_chrNA', 1)}
+HOC262317	{'A': ('domesticatedTA10622_chrNA', 1)}
+HOC262949	{'A': ('wildTA299_chrNA', 1)}
+HOC263921	{'A': ('wildTA299_chrNA', 1)}
+HOC264285	{'A': ('wildTA299_chrNA', 1)}
+HOC264631	{'A': ('wildTA299_chrNA', 1)}
+HOC265177	{}
+HOC265646	{}
+HOC266267	{}
+HOC266938	{}
+HOC267657	{}
+HOC267905	{}
+HOC268742	{}
+HOC269448	{}
+HOC269620	{}
+HOC271261	{}
+HOC271813	{}
+HOC272829	{}
+HOC272962	{}
+HOC273453	{}
+HOC273685	{}
+HOC275454	{'Thinopyrum': ('te_chrNE', 1)}
+HOC275962	{'Thinopyrum': ('te_chrNE', 1)}
+HOC276570	{'Thinopyrum': ('te_chrNE', 1)}
+HOC278328	{'Thinopyrum': ('te_chrNE', 1)}
+HOC278760	{'Thinopyrum': ('te_chrNE', 1)}
+HOC278946	{'Thinopyrum': ('te_chrNE', 1)}
+HOC278989	{'Thinopyrum': ('te_chrNE', 1)}
+HOC279194	{'Thinopyrum': ('te_chrNE', 1)}
+HOC279248	{'Thinopyrum': ('te_chrNE', 1)}
+HOC279625	{'Thinopyrum': ('te_chrNE', 1)}
+HOC280131	{'Thinopyrum': ('te_chrNE', 1)}
+HOC280260	{'Thinopyrum': ('te_chrNE', 1)}
+HOC280998	{'Thinopyrum': ('te_chrNE', 1)}
+HOC282136	{'Thinopyrum': ('te_chrNE', 1)}
+HOC282946	{'Thinopyrum': ('te_chrNE', 1)}
+HOC283118	{'Thinopyrum': ('te_chrNE', 1)}
+HOC284006	{'Secale': ('lo7_chrNR', 1)}
+HOC284836	{'Secale': ('weining_chrNR', 1)}
+HOC284955	{'Secale': ('weining_chrNR', 1)}
+HOC285125	{'Secale': ('weining_chrNR', 1)}
+HOC286737	{'Secale': ('weining_chrNR', 1)}
+HOC286954	{'Secale': ('weining_chrNR', 1)}
+HOC286959	{'Secale': ('weining_chrNR', 1)}
+HOC287412	{'Secale': ('weining_chrNR', 1)}
+HOC287500	{'Secale': ('weining_chrNR', 1)}
+HOC288175	{'Secale': ('weining_chrNR', 2)}
+HOC289156	{'Secale': ('weining_chrNR', 1)}
+HOC289579	{'Secale': ('weining_chrNR', 1)}
+HOC290264	{'Secale': ('weining_chrNR', 1)}
+HOC291693	{'Secale': ('weining_chrNR', 1)}
+HOC292386	{'Secale': ('weining_chrNR', 1)}
+HOC292494	{'Secale': ('weining_chrNR', 1)}
+HOC292933	{}
+HOC293004	{}
+HOC293248	{}
+HOC293800	{}
+HOC294224	{}
+HOC294591	{}
+HOC295058	{}
+HOC295122	{}
+HOC295298	{}
+HOC295601	{}
+HOC295815	{}
+HOC295950	{}
+HOC296338	{}
+HOC296538	{}
+HOC296631	{}
+HOC296681	{}
+HOC297719	{}
+HOC299135	{'Hordeum': ('Akashinriki_chrNH', 1)}
+HOC299625	{'Hordeum': ('Akashinriki_chrNH', 1)}
+HOC299634	{'Hordeum': ('Akashinriki_chrNH', 1)}
+HOC299768	{'Hordeum': ('Akashinriki_chrNH', 1)}
+HOC300191	{'Hordeum': ('Akashinriki_chrNH', 1)}
+HOC301399	{'Hordeum': ('Akashinriki_chrNH', 1)}
+HOC301485	{'Hordeum': ('Akashinriki_chrNH', 1)}
+HOC301951	{'Hordeum': ('B1K0412_chrNH', 1)}
+HOC302365	{'Hordeum': ('B1K0412_chrNH', 1)}
+HOC302720	{'Hordeum': ('B1K0412_chrNH', 1)}
+HOC304108	{'Hordeum': ('B1K0412_chrNH', 1)}
+HOC304138	{'Hordeum': ('B1K0412_chrNH', 1)}
+HOC304712	{'Hordeum': ('B1K0412_chrNH', 1)}
+HOC305817	{'Hordeum': ('B1K0412_chrNH', 1)}
+HOC306183	{'Hordeum': ('Barke_chrNH', 1)}
+HOC306402	{'Hordeum': ('Barke_chrNH', 1)}
+HOC307131	{'Hordeum': ('Barke_chrNH', 1)}
+HOC307725	{'Hordeum': ('Barke_chrNH', 1)}
+HOC308512	{'Hordeum': ('Barke_chrNH', 1)}
+HOC308698	{'Hordeum': ('barley_chrNH', 1)}
+HOC309249	{'Hordeum': ('barley_chrNH', 1)}
+HOC309437	{'Hordeum': ('barley_chrNH', 1)}
+HOC309503	{'Hordeum': ('barley_chrNH', 1)}
+HOC309756	{'Hordeum': ('barley_chrNH', 1)}
+HOC310067	{'Hordeum': ('barley_chrNH', 1)}
+HOC310099	{'Hordeum': ('barley_chrNH', 1)}
+HOC310398	{'Hordeum': ('barley_chrNH', 1)}
+HOC310714	{'Hordeum': ('barley_chrNH', 1)}
+HOC310758	{'Hordeum': ('barley_chrNH', 1)}
+HOC310946	{'Hordeum': ('barley_chrNH', 1)}
+HOC312579	{'Hordeum': ('barley_chrNH', 1)}
+HOC313504	{'Hordeum': ('barley_chrNH', 1)}
+HOC313904	{'Hordeum': ('barley_chrNH', 1)}
+HOC314682	{'Hordeum': ('barley_chrNH', 1)}
+HOC314704	{'Hordeum': ('barley_chrNH', 1)}
+HOC314710	{'Hordeum': ('barley_chrNH', 1)}
+HOC314847	{'Hordeum': ('barley_chrNH', 1)}
+HOC316617	{'Hordeum': ('GoldenPromise_chrNH', 1)}
+HOC318143	{'Hordeum': ('GoldenPromise_chrNH', 1)}
+HOC318886	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC318931	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC319041	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC320868	{'Hordeum': ('Hockett_chrNH', 1)}
+HOC321214	{'Hordeum': ('HOR10350_chrNH', 1)}
+HOC321932	{'Hordeum': ('HOR10350_chrNH', 1)}
+HOC322341	{'Hordeum': ('HOR10350_chrNH', 1)}
+HOC322360	{'Hordeum': ('HOR10350_chrNH', 1)}
+HOC322494	{'Hordeum': ('HOR10350_chrNH', 1)}
+HOC323791	{'Hordeum': ('HOR13821_chrNH', 1)}
+HOC324005	{'Hordeum': ('HOR13821_chrNH', 1)}
+HOC324277	{'Hordeum': ('HOR13821_chrNH', 1)}
+HOC324629	{'Hordeum': ('HOR13821_chrNH', 1)}
+HOC325369	{'Hordeum': ('HOR13821_chrNH', 1)}
+HOC325788	{'Hordeum': ('HOR13821_chrNH', 1)}
+HOC326553	{'Hordeum': ('HOR13942_chrNH', 1)}
+HOC327164	{'Hordeum': ('HOR13942_chrNH', 1)}
+HOC329892	{'Hordeum': ('HOR21599_chrNH', 1)}
+HOC329964	{'Hordeum': ('HOR21599_chrNH', 1)}
+HOC330601	{'Hordeum': ('HOR21599_chrNH', 1)}
+HOC331136	{'Hordeum': ('HOR21599_chrNH', 1)}
+HOC332625	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC332640	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC333400	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC333977	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC334180	{'Hordeum': ('HOR3081_chrNH', 1)}
+HOC336124	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC336356	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC336686	{'Hordeum': ('HOR3365_chrNH', 1)}
+HOC338232	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC339074	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC339799	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC339813	{'Hordeum': ('HOR7552_chrNH', 1)}
+HOC340697	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC341006	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC341777	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC341989	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC342263	{'Hordeum': ('HOR8148_chrNH', 1)}
+HOC342845	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC343015	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC343063	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC343109	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC343300	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC344065	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC344328	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC344495	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC344497	{'Hordeum': ('HOR9043_chrNH', 1)}
+HOC345709	{'Hordeum': ('Igri_chrNH', 1)}
+HOC345871	{'Hordeum': ('Igri_chrNH', 1)}
+HOC346593	{'Hordeum': ('Igri_chrNH', 1)}
+HOC348229	{'Hordeum': ('OUN333_chrNH', 1)}
+HOC348647	{'Hordeum': ('OUN333_chrNH', 1)}
+HOC349565	{'Hordeum': ('OUN333_chrNH', 1)}
+HOC350623	{'Hordeum': ('RGTPlanet_chrNH', 1)}
+HOC352359	{'Hordeum': ('RGTPlanet_chrNH', 1)}
+HOC353298	{'Hordeum': ('ZDM01467_chrNH', 1)}
+HOC353720	{'Hordeum': ('ZDM01467_chrNH', 1)}
+HOC354036	{'Hordeum': ('ZDM01467_chrNH', 1)}
+HOC354503	{'Hordeum': ('ZDM01467_chrNH', 1)}
+HOC355087	{'Hordeum': ('ZDM01467_chrNH', 1)}
+HOC355692	{'Hordeum': ('ZDM02064_chrNH', 1)}
+HOC357320	{'Hordeum': ('ZDM02064_chrNH', 1)}
+HOC357447	{'Hordeum': ('ZDM02064_chrNH', 1)}
+HOC357737	{'Hordeum': ('ZDM02064_chrNH', 1)}
+HOC357933	{'Hordeum': ('ZDM02064_chrNH', 1)}
+HOC358360	{'Avena': ('oat_chrN', 2)}
+HOC359152	{'Avena': ('oat_chrN', 1)}
+HOC362150	{'Avena': ('oat_chrN', 1)}
+HOC362850	{'Avena': ('oat_chrN', 1)}
+HOC363189	{'Avena': ('oat_chrN', 1)}
+HOC364236	{'Avena': ('oat_chrN', 1)}
+HOC364460	{'Avena': ('oat_chrN', 1)}
+HOC364770	{'Avena': ('oat_chrN', 1)}
+HOC365189	{'Avena': ('oat_chrN', 1)}
+HOC365693	{'Avena': ('oat_chrN', 1)}
+HOC366754	{'Avena': ('oat_chrN', 1)}
+HOC367701	{'Avena': ('oat_chrN', 1)}
+HOC367901	{'Avena': ('oat_chrN', 1)}
+HOC367932	{'Avena': ('oat_chrN', 1)}
+HOC367957	{'Avena': ('oat_chrN', 1)}
+HOC368362	{'Avena': ('oat_chrN', 1)}
+HOC368674	{'Avena': ('oat_chrN', 1)}
+HOC368699	{'Avena': ('oat_chrN', 1)}
+HOC369353	{'Avena': ('oat_chrN', 1)}
+HOC371081	{'Avena': ('oat_chrN', 1)}
+HOC371506	{'Brachypodium': ('brach_chrN', 1)}
+HOC372151	{'Brachypodium': ('brach_chrN', 1)}
+HOC372589	{'Brachypodium': ('brach_chrN', 1)}
+HOC372972	{'Brachypodium': ('brach_chrN', 1)}
+HOC373007	{'Brachypodium': ('brach_chrN', 1)}
+HOC373363	{'Brachypodium': ('brach_chrN', 1)}
+HOC373619	{'Brachypodium': ('brach_chrN', 1)}
+HOC373642	{'Brachypodium': ('brach_chrN', 1)}
+HOC374164	{'Brachypodium': ('brach_chrN', 1)}
+HOC374443	{'Brachypodium': ('brach_chrN', 1)}
+HOC375089	{'Brachypodium': ('brach_chrN', 1)}
+HOC375518	{'Brachypodium': ('brach_chrN', 1)}
+HOC375519	{'Brachypodium': ('brach_chrN', 1)}
+HOC375927	{'Brachypodium': ('brach_chrN', 1)}
+HOC376926	{'Brachypodium': ('brach_chrN', 1)}
+HOC377225	{'Brachypodium': ('brach_chrN', 1)}
+HOC377908	{'Brachypodium': ('brach_chrN', 1)}
+HOC378426	{'Brachypodium': ('brach_chrN', 1)}
+HOC379451	{'Brachypodium': ('brach_chrN', 1)}
+HOC379974	{'Brachypodium': ('brach_chrN', 1)}
+HOC380177	{'Brachypodium': ('brach_chrN', 1)}
+HOC380341	{'Brachypodium': ('brach_chrN', 1)}
+HOC380639	{'Brachypodium': ('brach_chrN', 1)}
+HOC381582	{'Brachypodium': ('brach_chrN', 1)}
+HOC382346	{'Oryza': ('rice_N', 1)}
+HOC382575	{'Oryza': ('rice_N', 1)}
+HOC382622	{'Oryza': ('rice_N', 1)}
+HOC382652	{'Oryza': ('rice_N', 1)}
+HOC383045	{'Oryza': ('rice_N', 1)}
+HOC383730	{'Oryza': ('rice_N', 1)}
+HOC384233	{'Oryza': ('rice_N', 1)}
+HOC385174	{'Oryza': ('rice_N', 1)}
+HOC386573	{'Oryza': ('rice_N', 1)}
+HOC386851	{'Oryza': ('rice_N', 1)}
+HOC388033	{'Oryza': ('CN1_ChrN', 1)}
+HOC388708	{'Oryza': ('CN1_ChrN', 1)}
+HOC389537	{'Oryza': ('CN1_ChrN', 1)}
+HOC390138	{'Oryza': ('CN1_ChrN', 1)}
+HOC390145	{'Oryza': ('CN1_ChrN', 1)}
+HOC390205	{'Oryza': ('CN1_ChrN', 1)}
+HOC390753	{'Oryza': ('CN1_ChrN', 1)}
+HOC391510	{'Oryza': ('DHX2_ChrN', 1)}
+HOC392358	{'Oryza': ('DHX2_ChrN', 1)}
+HOC392591	{'Oryza': ('DHX2_ChrN', 1)}
+HOC392906	{'Oryza': ('IR64_ChrN', 1)}
+HOC393030	{'Oryza': ('IR64_ChrN', 1)}
+HOC393511	{'Oryza': ('IR64_ChrN', 1)}
+HOC394135	{'Oryza': ('IR64_ChrN', 1)}
+HOC394230	{'Oryza': ('IR64_ChrN', 1)}
+HOC394514	{'Oryza': ('IR64_ChrN', 1)}
+HOC394944	{'Oryza': ('LJ_ChrN', 1)}
+HOC395474	{'Oryza': ('LJ_ChrN', 1)}
+HOC395476	{'Oryza': ('LJ_ChrN', 1)}
+HOC396335	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC396417	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC396680	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC396835	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC396946	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC397660	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC397879	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC398582	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC399057	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC400945	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC401130	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC401536	{'Oryza': ('MH63RS3_ChrN', 2)}
+HOC402595	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC403506	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC404243	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC404524	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC404818	{'Oryza': ('MH63RS3_ChrN', 2)}
+HOC405104	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC405935	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC406937	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC407673	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC407915	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC408654	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC408805	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC409924	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC410622	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC410912	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC411740	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC411907	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC412038	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC412207	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC412531	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC412713	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC412940	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC413318	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC413323	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC413374	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC414081	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC415344	{'Oryza': ('MH63RS3_ChrN', 1)}
+HOC417411	{'Oryza': ('R498_ChrN', 2)}
+HOC418821	{'Oryza': ('R498_ChrN', 1)}
+HOC419070	{'Oryza': ('R498_ChrN', 1)}
+HOC420177	{'Oryza': ('R498_ChrN', 1)}
+HOC421447	{'Oryza': ('ZH11_ChrN', 1)}
+HOC421907	{'Oryza': ('w1943_chrN', 1)}
+HOC422647	{'Oryza': ('w1943_chrN', 1)}
+HOC422761	{'Oryza': ('w1943_chrN', 1)}
+HOC422855	{'Oryza': ('w1943_chrN', 1)}
+HOC423010	{'Oryza': ('w1943_chrN', 1)}
+HOC423247	{'Oryza': ('w1943_chrN', 1)}
+HOC423515	{'Oryza': ('w1943_chrN', 1)}
+HOC423537	{'Oryza': ('w1943_chrN', 1)}
+HOC423748	{'Oryza': ('w1943_chrN', 1)}
+HOC423811	{'Oryza': ('w1943_chrN', 1)}
+HOC424807	{'Oryza': ('w1943_chrN', 1)}
+HOC426313	{'Zea': ('maize_N', 1)}
+HOC426533	{'Zea': ('maize_N', 1)}
+HOC427953	{'Zea': ('maize_N', 1)}
+HOC428244	{'Zea': ('maize_N', 1)}
+HOC428956	{'Zea': ('maize_N', 1)}
+HOC429127	{'Zea': ('maize_N', 1)}
+HOC429328	{'Zea': ('maize_N', 1)}
+HOC430463	{'Zea': ('maize_N', 1)}
+HOC430960	{'Zea': ('maize_N', 1)}
+HOC430976	{'Zea': ('maize_N', 1)}
+HOC431134	{'Zea': ('maize_N', 1)}
+HOC431173	{'Zea': ('maize_N', 1)}
+HOC431297	{'Zea': ('maize_N', 1)}
+HOC431391	{'Zea': ('maize_N', 1)}
+HOC431907	{'Zea': ('maize_N', 1)}
+HOC432762	{'Zea': ('maize_N', 1)}
+HOC433398	{'Zea': ('maize_N', 1)}
+HOC433722	{'Zea': ('maize_N', 1)}
+HOC433887	{'Zea': ('maize_N', 1)}
+HOC433949	{'Zea': ('maize_N', 1)}
+HOC434350	{'Zea': ('maize_N', 1)}
+HOC434414	{'Zea': ('maize_N', 1)}
+HOC435248	{'Zea': ('A188_chrN', 1)}
+HOC435314	{'Zea': ('A188_chrN', 1)}
+HOC436337	{'Zea': ('A188_chrN', 1)}
+HOC436487	{'Zea': ('A188_chrN', 1)}
+HOC436602	{'Zea': ('A188_chrN', 1)}
+HOC436631	{'Zea': ('A188_chrN', 1)}
+HOC436865	{'Zea': ('A188_chrN', 1)}
+HOC437249	{'Zea': ('A188_chrN', 1)}
+HOC437622	{'Zea': ('A188_chrN', 1)}
+HOC437735	{'Zea': ('A188_chrN', 1)}
+HOC437952	{'Zea': ('A188_chrN', 1)}
+HOC438665	{'Zea': ('A188_chrN', 1)}
+HOC438722	{'Zea': ('A188_chrN', 1)}
+HOC439054	{'Zea': ('A188_chrN', 1)}
+HOC439233	{'Zea': ('A188_chrN', 1)}
+HOC441252	{'Zea': ('A188_chrN', 1)}
+HOC441253	{'Zea': ('A188_chrN', 1)}
+HOC441932	{'Zea': ('A188_chrN', 1)}
+HOC442343	{'Zea': ('dk105_chrN', 1)}
+HOC442466	{'Zea': ('dk105_chrN', 1)}
+HOC442649	{'Zea': ('dk105_chrN', 1)}
+HOC442709	{'Zea': ('dk105_chrN', 1)}
+HOC442750	{'Zea': ('dk105_chrN', 1)}
+HOC443151	{'Zea': ('dk105_chrN', 1)}
+HOC444365	{'Zea': ('dk105_chrN', 1)}
+HOC445890	{'Zea': ('dk105_chrN', 2)}
+HOC445935	{'Zea': ('dk105_chrN', 1)}
+HOC445949	{'Zea': ('dk105_chrN', 1)}
+HOC446320	{'Zea': ('dk105_chrN', 1)}
+HOC446377	{'Zea': ('dk105_chrN', 1)}
+HOC448044	{'Zea': ('EP1_chrN', 1)}
+HOC448160	{'Zea': ('EP1_chrN', 1)}
+HOC448478	{'Zea': ('EP1_chrN', 1)}
+HOC449478	{'Zea': ('EP1_chrN', 1)}
+HOC449659	{'Zea': ('EP1_chrN', 1)}
+HOC449697	{'Zea': ('EP1_chrN', 1)}
+HOC449748	{'Zea': ('EP1_chrN', 1)}
+HOC449893	{'Zea': ('EP1_chrN', 1)}
+HOC450730	{'Zea': ('EP1_chrN', 1)}
+HOC451963	{'Zea': ('EP1_chrN', 1)}
+HOC452016	{'Zea': ('EP1_chrN', 1)}
+HOC452383	{'Zea': ('EP1_chrN', 1)}
+HOC453338	{'Zea': ('F7_chrN', 1)}
+HOC453795	{'Zea': ('F7_chrN', 1)}
+HOC453962	{'Zea': ('F7_chrN', 1)}
+HOC455835	{'Zea': ('F7_chrN', 1)}
+HOC456763	{'Zea': ('F7_chrN', 1)}
+HOC458066	{'Zea': ('F7_chrN', 1)}
+HOC458105	{'Zea': ('F7_chrN', 1)}
+HOC458528	{'Zea': ('F7_chrN', 1)}
+HOC458613	{'Zea': ('F7_chrN', 1)}
+HOC458926	{'Zea': ('F7_chrN', 1)}
+HOC459549	{'Zea': ('F7_chrN', 1)}
+HOC459666	{'Zea': ('F7_chrN', 1)}
+HOC459691	{'Zea': ('F7_chrN', 1)}
+HOC460087	{'Zea': ('F7_chrN', 1)}
+HOC461837	{'Zea': ('mo17_chrN', 1)}
+HOC462264	{'Zea': ('mo17_chrN', 1)}
+HOC462730	{'Zea': ('mo17_chrN', 2)}
+HOC463510	{'Zea': ('mo17_chrN', 1)}
+HOC463989	{'Zea': ('mo17_chrN', 1)}
+HOC465300	{'Zea': ('mo17_chrN', 1)}
+HOC465475	{'Zea': ('mo17_chrN', 1)}
+HOC465747	{'Zea': ('oh43_chrN', 1)}
+HOC466629	{'Zea': ('oh43_chrN', 1)}
+HOC467662	{'Zea': ('oh43_chrN', 1)}
+HOC467692	{'Zea': ('oh43_chrN', 1)}
+HOC468915	{'Zea': ('oh43_chrN', 1)}
+HOC468943	{'Zea': ('oh43_chrN', 1)}
+HOC469310	{'Zea': ('oh43_chrN', 1)}
+HOC469822	{'Zea': ('oh43_chrN', 1)}
+HOC470158	{'Zea': ('oh43_chrN', 1)}
+HOC471453	{'Zea': ('PE0075_chrN', 2)}
+HOC472008	{'Zea': ('PE0075_chrN', 1)}
+HOC472168	{'Zea': ('PE0075_chrN', 1)}
+HOC473615	{'Zea': ('PE0075_chrN', 1)}
+HOC473848	{'Zea': ('PE0075_chrN', 1)}
+HOC474035	{'Zea': ('PE0075_chrN', 1)}
+HOC474222	{'Zea': ('PE0075_chrN', 1)}
+HOC477030	{'Zea': ('ph207_chrN', 1)}
+HOC478603	{'Zea': ('ph207_chrN', 1)}
+HOC478914	{'Zea': ('ph207_chrN', 1)}
+HOC479137	{'Zea': ('ph207_chrN', 1)}
+HOC479970	{'Zea': ('ph207_chrN', 1)}
+HOC480025	{'Zea': ('ph207_chrN', 1)}
+HOC480039	{'Zea': ('ph207_chrN', 1)}
+HOC480066	{'Zea': ('ph207_chrN', 1)}
+HOC482529	{}
+HOC484952	{}
+HOC486641	{}
+HOC488049	{}
+HOC488568	{}
+HOC488856	{}
+HOC489035	{}
+HOC489772	{}
+HOC489903	{}
+HOC490345	{}
+HOC490480	{}
+HOC490799	{}
+HOC490888	{}
+HOC491044	{}
+HOC491756	{}
+HOC492931	{}
+HOC493072	{}
+HOC493271	{}
+HOC493277	{}
+HOC493360	{}
+HOC494238	{}
+HOC496965	{}
+HOC497218	{}
+HOC497506	{}
+HOC497633	{}
+HOC497754	{}
+HOC498018	{}
+HOC498121	{}
+HOC499315	{}
+HOC499354	{}
+HOC499525	{}
+HOC500657	{}
+HOC500940	{}
+HOC501258	{}
+HOC501545	{}
+HOC501661	{}
+HOC502249	{}
+HOC503366	{}
+HOC503512	{}
+HOC504295	{}
+HOC506043	{}
+HOC506045	{}
+HOC506481	{}
+HOC506716	{}
+HOC507033	{}
+HOC507858	{}
+HOC508447	{}
+HOC508786	{}
+HOC509130	{}
+HOC509664	{}
+HOC509763	{}
+HOC509929	{}
+HOC509940	{}
+HOC510134	{}
+HOC510252	{}
+HOC510355	{}
+HOC510513	{}
+HOC510611	{}
+HOC511311	{}
+HOC511563	{}
+HOC511930	{}
+HOC513335	{}
+HOC514008	{}
+HOC514502	{}
+HOC514512	{}
+HOC514569	{}
+HOC515575	{}
+HOC516508	{}
+HOC516635	{}
+HOC516783	{}
+HOC517403	{}
+HOC517556	{}
+HOC517591	{}
+HOC517785	{}
+HOC517964	{}
+HOC518542	{}
+HOC518664	{}
+HOC518694	{}
+HOC520721	{}
+HOC521044	{}
+HOC521149	{}
+HOC524893	{}
+HOC525489	{}
+HOC526738	{}
+HOC526951	{}
+HOC527195	{}
+HOC527828	{}
+HOC528992	{}
+HOC529566	{}
+HOC530360	{}
+HOC531645	{}
+HOC531779	{}
+HOC532071	{}
+HOC532449	{}
