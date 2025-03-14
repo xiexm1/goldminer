@@ -1,4 +1,4 @@
-# gOLDminer
+# goldminer
 A tool to find the gene Origin, Loss and Duplicate node at a phylogenetic tree.
 
 Diagram of identify origin duplicate and loss
