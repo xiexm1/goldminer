@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-example
-=======
 # History files
 .Rhistory
 .Rapp.history
 
 # Session Data files
 .RData
-.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -41,13 +37,3 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
->>>>>>> d47c304bacc92c2d54efbd0681198775e8aeed6f
