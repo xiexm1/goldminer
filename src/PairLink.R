@@ -28,6 +28,14 @@ option_list <- list(
 	make_option(c("-b", "--blocks"),
 							dest = "blocks", default = "/data/user/chenym/shiny_TGT_database/singleBest_colblocks/",
 							help = "blocks file path"
+	),
+	make_option(c("-m", "--tosub"),
+							dest = "tosub", default = "",
+							help = "Path to tosub.txt file containing genome and chromosome info"
+	),
+	make_option(c("-w", "--selfweight"),
+							dest = "selfweight", default = 1,
+							help = "Weight value for self-links"
 	)
 )
 
@@ -36,7 +44,9 @@ parser <- OptionParser(
 	option_list = option_list, description = "Description:
         Step3: Connect clusters between pairwise genomes (N = 2) \
         Example: \
-        goldminer PairLink -l maize_N -f rice_N -o out_path -c clu_path -i iblocks_path -b blocks_path [ -t 14 ]"
+        goldminer PairLink -l maize_N -f rice_N -o out_path -c clu_path -i iblocks_path -b blocks_path [ -t 14 ] \
+        OR use batch mode: \
+        goldminer PairLink -m tosub.txt -o out_path -c clu_path -i iblocks_path -b blocks_path [ -t 14 -w 1 ]"
 )
 
 arguments <- parse_args(parser, positional_arguments = c(0, Inf))
@@ -306,7 +316,8 @@ readClu <- function(dataPath, gm, Cludb) {
 	if (file.exists(clu)) {
 		Clu <- read.table(clu,
 											fill = T,
-											col.names = c("firstG", "lastG", "TDGClu", "CluSize", "Chr")
+											# col.names = c("firstG", "lastG", "TDGClu", "CluSize", "Chr")
+											col.names = c("firstG", "lastG", "CluSize","TDGClu",  "Chr")
 		)[, c(5, 1:4)]
 		Clu$ind <- 1:length(Clu$Chr)
 
@@ -323,67 +334,187 @@ readClu <- function(dataPath, gm, Cludb) {
 	}
 }
 
+# 新添加的批处理函数
+processPairGenomes <- function(gm1, gm2, outpath, cludb_path, blocks_path, blocks_path2, cl_num, selfweight) {
+	tryCatch({
+		if (gm1 == gm2) {
+			clu_file <- paste0(cludb_path, "/", gm1, ".clu")
+			if (file.exists(clu_file)) {
+				out_file <- paste0(outpath, "/", gm1, ".", gm1, ".link")
+				cmd <- paste0("awk -v gm=", gm1, " -v w=", selfweight, " '{print gm\"\\t\"NR\"\\t\"gm\"\\t\"NR\"\\t\"w}' ", clu_file, " > ", out_file)
+				system(cmd)
+				cat(paste0("Created self-link file: ", gm1, "\n"))
+			} else {
+				cat(paste0("Warning: Clu file for ", gm1, " not found\n"))
+			}
+		} else {
+			out_file <- paste0(outpath, "/", gm1, ".", gm2, ".link")
+			if (file.exists(out_file)) {
+				cat(paste0("Link file ", out_file, " already exists, skipping...\n"))
+				return()
+			}
+			
+			tdCludb1 <- readCludb(dataPath, gm1)
+			tdClu1 <- readClu(dataPath, gm1, tdCludb1)
+			tdCludb2 <- readCludb(dataPath, gm2)
+			tdClu2 <- readClu(dataPath, gm2, tdCludb2)
+			
+			blocks <- paste0(blocks_path, "/", gm1, ".", gm2, ".i1.blocks")
+			blocks2 <- paste0(blocks_path2, "/", gm1, ".", gm2, ".block")
+			
+			if (file.exists(blocks)) {
+				blockTwo <- read.table(blocks, header = F)
+				names(blockTwo) <- c("gm1", "gm2")
+				blockTwo$ind <- c(1:length(blockTwo$gm1))
+				
+				x <- 1:length(tdClu1$firstG)
+				library(parallel)
+				cl <- makeCluster(cl_num)
+				
+				if (file.exists(blocks2)) {
+					blockTwo2 <- read.table(blocks2, header = F)
+					names(blockTwo2) <- c(
+						"from.chr", "from.start", "from.end", "to.chr",
+						"to.start", "to.end", "score", "direction"
+					)
+					
+					clusterExport(cl, c(
+						"gm1", "gm2", "tdCludb1", "tdCludb2",
+						"tdClu1", "tdClu2", "blockTwo", "blockTwo2", "outpath"
+					), environment())
+					
+					tryCatch({
+						parLapply(cl, x, matchClu)
+					}, error = function(e) {
+						cat(paste0("Error processing ", gm1, " and ", gm2, ": ", conditionMessage(e), "\n"))
+					}, finally = {
+						if(!is.null(cl) && inherits(cl, "cluster")) {
+							tryCatch(stopCluster(cl), error = function(e) NULL)
+						}
+					})
+				} else {
+					cat(paste0("Block file [", gm1, " AND ", gm2, "] not available, running matchClu-old.\n"))
+					
+					clusterExport(cl, c(
+						"gm1", "gm2", "tdCludb1", "tdCludb2",
+						"tdClu1", "tdClu2", "blockTwo", "outpath"
+					), environment())
+					
+					tryCatch({
+						parLapply(cl, x, matchClu_old)
+					}, error = function(e) {
+						cat(paste0("Error processing ", gm1, " and ", gm2, ": ", conditionMessage(e), "\n"))
+					}, finally = {
+						if(!is.null(cl) && inherits(cl, "cluster")) {
+							tryCatch(stopCluster(cl), error = function(e) NULL)
+						}
+					})
+				}
+				
+				if(!is.null(cl) && inherits(cl, "cluster")) {
+					tryCatch(stopCluster(cl), error = function(e) NULL)
+				}
+				cat(paste0("Processing completed: links for ", gm1, " and ", gm2, "\n"))
+			} else {
+				cat(paste0("i1blocks file [", gm1, " AND ", gm2, "] does not exist, skipping.\n"))
+			}
+		}
+	}, error = function(e) {
+		cat(paste0("Error in processing genome pair ", gm1, " - ", gm2, ": ", conditionMessage(e), "\n"))
+		cat("Skipping this pair and continuing with the next...\n")
+	})
+}
+
+# 主程序逻辑
 dataPath <- paste0(cludb_path, "/")
+tosub_file <- arguments$options$tosub
+selfweight <- arguments$options$selfweight
 
-if (gm2 != gm1) {
-	tdCludb1 <- readCludb(dataPath, gm1)
-	tdClu1 <- readClu(dataPath, gm1, tdCludb1)
-	tdCludb2 <- readCludb(dataPath, gm2)
-	tdClu2 <- readClu(dataPath, gm2, tdCludb2)
-	blocks <- paste0(blocks_path, "/", gm1, ".", gm2, ".i1.blocks")
-	blocks2 <- paste0(blocks_path2, "/", gm1, ".", gm2, ".block")
+if (tosub_file != "") {
+	if (!file.exists(tosub_file)) {
+		stop(paste0("tosub file ", tosub_file, " does not exist"))
+	}
+	
+	tosub_data <- read.table(tosub_file, sep=" ", stringsAsFactors=FALSE)
+	#batch sub mode subfile
+	#space split and with 2 cols
+	
+	genomes <- c()
+	for (i in 1:nrow(tosub_data)) {
+		genome_id <- paste(tosub_data[i,1], tosub_data[i,2], sep="_")
+		genomes <- c(genomes, genome_id)
+	}
+	
+	cat(paste0("Batch mode: Processing ", length(genomes), " genome identifiers\n"))
+	cat("List of genome identifiers:\n")
+	cat(paste(genomes, collapse="\n"), "\n")
+	
+	for (i in 1:length(genomes)) {
+		for (j in 1:length(genomes)) {
+			gm1 <- genomes[i]
+			gm2 <- genomes[j]
+			cat(paste0("Processing genome pair: ", gm1, " - ", gm2, "\n"))
+			processPairGenomes(gm1, gm2, outpath, cludb_path, blocks_path, blocks_path2, cl_num, selfweight)
+		}
+	}
+	
+	cat("Batch processing completed\n")
 } else {
-	message("The second genome is same as the first, So exit.")
-	quit()
+	# 原有的单对处理模式
+	if (gm2 != gm1) {
+		tdCludb1 <- readCludb(dataPath, gm1)
+		tdClu1 <- readClu(dataPath, gm1, tdCludb1)
+		tdCludb2 <- readCludb(dataPath, gm2)
+		tdClu2 <- readClu(dataPath, gm2, tdCludb2)
+		blocks <- paste0(blocks_path, "/", gm1, ".", gm2, ".i1.blocks")
+		blocks2 <- paste0(blocks_path2, "/", gm1, ".", gm2, ".block")
+	} else {
+		message("第二个基因组与第一个相同，退出。")
+		quit()
+	}
+	print(head(tdCludb1))
+	print(head(tdCludb2))
+	print(head(tdClu1))
+	print(head(tdClu2))
+	
+	# 原有的处理逻辑保持不变...
+	if (file.exists(blocks)) {
+		blockTwo <- read.table(blocks, header = F)
+		names(blockTwo) <- c("gm1", "gm2")
+		blockTwo$ind <- c(1:length(blockTwo$gm1))
+
+		print(head(blockTwo))
+	} else {
+		message(paste0("i1blocks 文件 [",gm1," 和 ",gm2,"] 不存在，退出。"))
+		quit()
+	}
+	
+	x <- 1:length(tdClu1$firstG)
+	library(parallel)
+	cl <- makeCluster(cl_num)
+	
+	if (file.exists(blocks2)) {
+		blockTwo2 <- read.table(blocks2, header = F)
+		names(blockTwo2) <- c(
+			"from.chr", "from.start", "from.end", "to.chr",
+			"to.start", "to.end", "score", "direction"
+		)
+		print(head(blockTwo2))
+		
+		clusterExport(cl, c(
+			"gm1", "gm2", "tdCludb1", "tdCludb2",
+			"tdClu1", "tdClu2", "blockTwo", "blockTwo2", "outpath"
+		), environment())
+		parLapply(cl, x, matchClu)
+	} else {
+		message(paste0("块文件 [",gm1," 和 ",gm2,"] 不可用，运行 matchClu-old。"))
+		
+		clusterExport(cl, c(
+			"gm1", "gm2", "tdCludb1", "tdCludb2",
+			"tdClu1", "tdClu2", "blockTwo", "outpath"
+		), environment())
+		parLapply(cl, x, matchClu_old)
+	}
+	
+	stopCluster(cl)
 }
-
-if (file.exists(blocks)) {
-	blockTwo <- read.table(blocks, header = F)
-	names(blockTwo) <- c("gm1", "gm2")
-	blockTwo$ind <- c(1:length(blockTwo$gm1))
-} else {
-	message(paste0("The i1bloks file of [",gm1," AND ",gm2,"] not exist, So exit."))
-	quit()
-}
-
-
-x <- 1:length(tdClu1$firstG)
-# run paralle
-library(parallel)
-cl <- makeCluster(cl_num)
-
-if (file.exists(blocks2)) {
-	blockTwo2 <- read.table(blocks2, header = F)
-	names(blockTwo2) <- c(
-		"from.chr",
-		"from.start",
-		"from.end",
-		"to.chr",
-		"to.start",
-		"to.end",
-		"score",
-		"direction"
-	)
-
-	clusterExport(cl, c(
-		"gm1", "gm2",
-		"tdCludb1", "tdCludb2",
-		"tdClu1", "tdClu2",
-		"blockTwo", "blockTwo2",
-		"outpath"
-	), environment())
-	parLapply(cl, x, matchClu)
-} else {
-	message(paste0("Blocks file of [",gm1," AND ",gm2,"] not available, So run matchClu-old."))
-
-	clusterExport(cl, c(
-		"gm1", "gm2",
-		"tdCludb1", "tdCludb2",
-		"tdClu1", "tdClu2",
-		"blockTwo",
-		"outpath"
-	), environment())
-	parLapply(cl, x, matchClu_old)
-}
-
-stopCluster(cl)

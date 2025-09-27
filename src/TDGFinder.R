@@ -74,8 +74,8 @@ TDGFinder <- function(i){
     genome_from <- genomes[i]
     genome_to <- genome_from
     bedfile <- paste0(path_bed,"/",genome_from,".bed")
-    singleton <-  paste0(path_homo,"/",genome_from,"_",genome_to,"/",genome_from,"_",genome_to,"itself.singleton")
-    homologsfile <- paste0(path_homo,"/",genome_from,"_",genome_to,"/",genome_from,"_",genome_to,"itself.one2many")
+    singleton <-  paste0(path_homo,"/",genome_from,"_",genome_to,"itself.singleton")
+    homologsfile <- paste0(path_homo,"/",genome_from,"_",genome_to,"itself.one2many")
 
     if (file.exists(homologsfile) & file.exists(bedfile) & file.exists(singleton)) {
       ##读入数据
