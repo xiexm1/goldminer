@@ -59,10 +59,6 @@ cludb_path <- arguments$options$clu
 blocks_path <- arguments$options$iblocks
 blocks_path2 <- arguments$options$blocks
 
-# outpath <- "/data2/user2/xiexm/projs/GeneODL/pipeline/00.PrepData/CollinearPairsDB_20220122/"
-# cludb_path <- "/data2/user2/xiexm/projs/GeneODL/pipeline/00.PrepData/ClusterDB_20210821/"
-# blocks_path <- "/data/user/chenym/data_fordatabase/microcollinearity_file1/"
-# blocks_path2 <- "/data/user/chenym/shiny_TGT_database/singleBest_colblocks/"
 
 matchClu <- function(i) {
 	blockCheck <- function(TDGclu, from.cludb, to.cludb, blocks, block) {
@@ -182,7 +178,7 @@ matchClu <- function(i) {
 		tdClu = tdClu2
 	)
 
-	# 当一个簇有多个对应簇时呈现多行####
+	# When one cluster has multiple corresponding clusters, output multiple lines ####
 	for (k in 1:nrow(ind)) {
 		out <- paste(c(gm1, tdClu1$ind[i], gm2, ind$ind[k], ind$Freq[k]), collapse = "  ")
 		file <- paste0(outpath, "/", gm1, ".", gm2, ".link")
@@ -228,7 +224,7 @@ matchClu_old <- function(i) {
 
 					up.dv <- abs(up.ind - to.ind)
 					down.dv <- abs(down.ind - to.ind)
-					if (up.dv <= 20 & down.dv <= 20) { # 20 是一个可调参数？
+					if (up.dv <= 20 & down.dv <= 20) { # 20 is a tunable parameter?
 						# return(as.character(to.gene))
 						sg <- as.character(to.gene)
 					} else {
@@ -287,7 +283,7 @@ matchClu_old <- function(i) {
 		tdClu = tdClu2
 	)
 
-	# 当一个簇有多个对应簇时呈现多行####
+	# When one cluster has multiple corresponding clusters, output multiple lines ####
 	for (k in 1:nrow(ind)) {
 		out <- paste(c(gm1, tdClu1$ind[i], gm2, ind$ind[k], ind$Freq[k]), collapse = "  ")
 		file <- paste0(outpath, "/", gm1, ".", gm2, ".link")
@@ -334,7 +330,7 @@ readClu <- function(dataPath, gm, Cludb) {
 	}
 }
 
-# 新添加的批处理函数
+# Newly added batch processing functions
 processPairGenomes <- function(gm1, gm2, outpath, cludb_path, blocks_path, blocks_path2, cl_num, selfweight) {
 	tryCatch({
 		if (gm1 == gm2) {
@@ -425,7 +421,7 @@ processPairGenomes <- function(gm1, gm2, outpath, cludb_path, blocks_path, block
 	})
 }
 
-# 主程序逻辑
+# Main program logic
 dataPath <- paste0(cludb_path, "/")
 tosub_file <- arguments$options$tosub
 selfweight <- arguments$options$selfweight
@@ -460,7 +456,7 @@ if (tosub_file != "") {
 	
 	cat("Batch processing completed\n")
 } else {
-	# 原有的单对处理模式
+	# Original single-pair processing mode
 	if (gm2 != gm1) {
 		tdCludb1 <- readCludb(dataPath, gm1)
 		tdClu1 <- readClu(dataPath, gm1, tdCludb1)
@@ -469,7 +465,7 @@ if (tosub_file != "") {
 		blocks <- paste0(blocks_path, "/", gm1, ".", gm2, ".i1.blocks")
 		blocks2 <- paste0(blocks_path2, "/", gm1, ".", gm2, ".block")
 	} else {
-		message("第二个基因组与第一个相同，退出。")
+	message("The second genome is the same as the first; exiting.")
 		quit()
 	}
 	print(head(tdCludb1))
@@ -477,7 +473,7 @@ if (tosub_file != "") {
 	print(head(tdClu1))
 	print(head(tdClu2))
 	
-	# 原有的处理逻辑保持不变...
+	# Original processing logic remains unchanged...
 	if (file.exists(blocks)) {
 		blockTwo <- read.table(blocks, header = F)
 		names(blockTwo) <- c("gm1", "gm2")
@@ -485,7 +481,7 @@ if (tosub_file != "") {
 
 		print(head(blockTwo))
 	} else {
-		message(paste0("i1blocks 文件 [",gm1," 和 ",gm2,"] 不存在，退出。"))
+	message(paste0("i1blocks file [",gm1," AND ",gm2,"] does not exist, exiting."))
 		quit()
 	}
 	
@@ -507,7 +503,7 @@ if (tosub_file != "") {
 		), environment())
 		parLapply(cl, x, matchClu)
 	} else {
-		message(paste0("块文件 [",gm1," 和 ",gm2,"] 不可用，运行 matchClu-old。"))
+	message(paste0("Block file [",gm1," AND ",gm2,"] not available, running matchClu-old."))
 		
 		clusterExport(cl, c(
 			"gm1", "gm2", "tdCludb1", "tdCludb2",

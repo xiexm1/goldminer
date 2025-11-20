@@ -8,8 +8,6 @@ suppressPackageStartupMessages(library(Cairo))
 option_list <- list(
 	make_option(c("-r", "--ref"), dest = "ref", default = ""),
 	make_option(c("-q", "--query"), dest = "query", default = ""),
-#    make_option(c("-c", "--ref"), dest = "refs", default = ""),
-#	make_option(c("-n", "--querys"), dest = "querys", default = ""),
 	make_option(c("-o", "--out"), dest = "out", default = "out")
 )
 
@@ -18,8 +16,6 @@ arguments <- parse_args(parser, positional_arguments = c(0,Inf))
 
 ref <- arguments$options$ref
 query <- arguments$options$query
-#refs <- arguments$options$refs
-#querys <- arguments$options$querys
 out <- arguments$options$out
 
 if (ref == "" || query == "") {
@@ -35,11 +31,9 @@ ord1 <- read.table(ref, col.names = c("hoc", "chr1", "pos1"))
 ord2 <- read.table(query, col.names = c("hoc", "chr2", "pos2"))
 
 ord <- left_join(ord1, ord2)
-# [,c("hoc","chr1","pos1","chr2","pos2")]
+
 data <- na.omit(ord)
 
-# data$chr1 <- factor(data$chr1, levels = unlist(strsplit(refs,",")))
-# data$chr2 <- factor(data$chr2, levels = unlist(strsplit(querys,",")))
 
 changetoM <- function(position) {
 	position <- position / 1000000

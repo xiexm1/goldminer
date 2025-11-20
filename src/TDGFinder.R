@@ -43,7 +43,7 @@ t <- arguments$options$threads
 d <- arguments$options$distance
 subG.tb <- arguments$options$subgenome
 
-# 检查subgenome参数是否为空
+# Check whether the subgenome parameter is empty
 if (arguments$options$subgenome == "") {
   stop("Error: subgenome file path cannot be empty. Please provide a valid file path.")
 }else if (!file.exists(subG.tb)) {
@@ -52,7 +52,7 @@ if (arguments$options$subgenome == "") {
   stop("Error: one2many and bed file path cannot be empty. Please provide a valid file path.")
 }
 
-# 检查环境依赖
+# Check environment dependencies
 if (!require(igraph)) {
   stop("Error: package 'igraph' is not installed. Please install it first.")
 }
@@ -66,7 +66,6 @@ if (!require(dplyr)) {
 
 TDGFinder <- function(i){
   tryCatch({
-    ##加载包
     suppressPackageStartupMessages(library(igraph))
     suppressPackageStartupMessages(library(reshape2))
     suppressPackageStartupMessages(library(dplyr))
@@ -78,7 +77,7 @@ TDGFinder <- function(i){
     homologsfile <- paste0(path_homo,"/",genome_from,"_",genome_to,"itself.one2many")
 
     if (file.exists(homologsfile) & file.exists(bedfile) & file.exists(singleton)) {
-      ##读入数据
+  ## Read input data
       gene_one2many <- read.table(homologsfile,header = F,col.names = c("from","to","score"))
       gene_singleton <- read.table(singleton,header = F,col.names = c("from"))
       gene_singleton$to <- gene_singleton$from
@@ -86,7 +85,7 @@ TDGFinder <- function(i){
       gene_pair_data <- rbind(gene_one2many, gene_singleton) 
       gene_bed <- read.table(bedfile,header = F,col.names = c("chr","start","end","id","none","chain"))
 
-      ##筛选同染色体基因对
+  ## Filter gene pairs that are on the same chromosome
       names(gene_pair_data) <- c("id","to","score")
       gene_pair_data_bef <- dplyr::left_join(gene_pair_data,gene_bed,by = "id")[,c(1,2,4)]
       
@@ -97,10 +96,10 @@ TDGFinder <- function(i){
       names(gene_pair_data) <- c("from","to","from_chr","to_chr")
       gene_pair_chr_match <- droplevels(subset(gene_pair_data,gene_pair_data$from_chr == gene_pair_data$to_chr))
       
-      ##清理数据
+  ## Clean up temporary variables
       rm(gene_pair_data_bef,gene_pair_data_aft,gene_one2many,gene_singleton)
 
-      ##建立基因的index
+  ## Build gene indices
       gene_num_by_chr <- table(gene_bed$chr)
       index <- list()
       for (i in (1:length(gene_num_by_chr))) {
@@ -108,11 +107,11 @@ TDGFinder <- function(i){
       }
       gene_bed$index <- unlist(index)
 
-      ##计算基因间距离
+  ## Calculate distances between genes
       gene_bed$cen <- round((gene_bed$start + gene_bed$end)/2)
       gene_bed <- gene_bed[c(4,1:3,7:8,6)]
 
-      ##利用dplyr快速合并基因对与bed信息
+  ## Use dplyr to quickly join gene pairs with BED information
       from_data <- data.frame(from = gene_bed$id,f.start = gene_bed$start,f.end = gene_bed$end,
                             f.index = gene_bed$index,f.cen = gene_bed$cen)
       to_data <- data.frame(to = gene_bed$id,t.start = gene_bed$start,t.end = gene_bed$end,
@@ -121,18 +120,18 @@ TDGFinder <- function(i){
       gene_pair_data_pre <- left_join(gene_pair_chr_match,from_data,by = "from")
       gene_pair_data_new <- left_join(gene_pair_data_pre,to_data,by = "to")
 
-      #利用距离筛选数据，d < 5ind
+  # Filter data by distance, d < 5 indices
       gene_pair_data_new$dis_cen <- abs(gene_pair_data_new$f.cen - gene_pair_data_new$t.cen)
       gene_pair_data_new$dis_ind <- abs(gene_pair_data_new$f.index - gene_pair_data_new$t.index)
       data_for_igraph <- droplevels(subset(gene_pair_data_new,gene_pair_data_new$dis_ind <= d))
 
-      ##清理数据
+  ## Clean up temporary variables
       rm(gene_pair_data_new,gene_pair_chr_match,gene_pair_data,from_data,to_data)
 
-      ##创建igraph对象g
+  ## Create igraph object g
       g <- graph_from_data_frame(data_for_igraph, vertices = gene_bed)  
 
-      #利用节点属性计算边属性
+  # Compute edge attributes from node attributes
       ends_g <- ends(g,E(g))
 
       E(g)$dis_cen <- abs(V(g)[ends_g[,1]]$cen - V(g)[ends_g[,2]]$cen)
@@ -143,11 +142,11 @@ TDGFinder <- function(i){
       #The edge weights. Larger edge weights increase the probability that an edge is selected by the random walker. 
       #In other words, larger edge weights correspond to stronger connections.
 
-      #利用随机游走模型通过距离权重发现基因簇
+  # Use random-walk community detection (Walktrap) with distance weights to find gene clusters
       wcg <- walktrap.community(g, weights = E(g)$weight, steps = 4, merges = TRUE, modularity = TRUE, membership = TRUE)
       clu_from_g <- wcg[sizes(wcg) >= 1]
 
-      #存成易读的结构
+  # Save results in a human-readable structure
       cluster <- data.frame(gene = wcg$names,membership = wcg$membership)
       df_clu <- cluster[order(cluster$membership),] 
 
@@ -192,14 +191,14 @@ TDGFinder <- function(i){
   })
 }
 
-# 创建结果存储目录
+# Create result output directory
 system(paste0("mkdir -p ",path_output))
 
-## 读入基因组列表
+## Read genome list
 subG <- read.table(subG.tb,col.names = c("Gm","subG","CHRlist"))
 genomes <- unique(subG$Gm)
 
-## R 并行
+## Parallel execution in R
 suppressPackageStartupMessages(library(parallel))
 l <- length(genomes)
 x <- 1:l
